@@ -1,0 +1,148 @@
+table{
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+    border-collapse: collapse;
+    margin:20px 0px;
+    width:100%;
+}
+table th{
+    color:blue;
+    text-transform: uppercase;
+    background-color: rgb(224, 224, 224);
+    padding: 10px 0px;
+    box-shadow: -2px -2px 4px 0px #ffffff , 2px 2px 5px 0px rgba(206, 206, 206, 0.45);
+    height:50px;
+    font-size:20px;
+    font-family: monospace;
+    border:none;
+}
+
+ tr:nth-child(even){
+
+    background-color:rgb(241, 241, 241);
+    color:white;
+}
+
+tbody td:first-child{
+   
+    cursor: pointer;
+    background-color:rgb(230, 229, 229);
+    color:blue;
+    font-size:35px;
+    transition-duration: 500ms;
+    padding:0px 5px;
+    border:none;
+}
+th,td{
+   border-left:1px solid #9e76e8;
+}
+td{
+  
+   font-size:25px;
+}
+#form{
+    width:90%;
+    margin:50px 0px;
+    padding:2%;
+}
+.aa{
+    background-color:blue;
+    color:white;
+}
+
+#card1{
+        width:40px;
+        margin:4px 6px;
+}
+#btn button{
+    padding: 0px 20px;
+}
+
+.tdblue{
+    color: blue;
+}
+#card1{
+    width:40px;
+    margin:5px 5px;
+}
+#blue:hover{
+    background-color:red;
+}
+#home{
+    position:relative;
+}
+#discount::before{
+content:'VISTOR : ';
+}
+#clock::before{
+    content:'TIME : ';
+}
+
+#discount{
+    color:blue;
+}
+#selecteds{
+    background-color:blue;
+    color:white;
+}
+audio{
+    margin:20px 0px;
+    box-shadow: -2px -2px 0px 0px #ffffff, 5px 5px 5px 0px rgb(194, 190, 190);
+    border-radius:40px;
+    display:none;
+}
+
+.sumation{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+grid-gap:10%;
+width:90%;
+}
+.counter{
+background-color:#e4e4e4;
+color:blue;
+font-size:30px;
+font-family: monospace;
+padding:10px 0px;
+border-radius: 20px;
+margin-top:40px;
+}
+.counters{
+color:blue;
+font-size:30px;
+font-family: monospace;
+padding:5px 0px;
+border-radius: 20px;
+width:90%;
+}
+.counters h6{
+background-color:#ececec;
+display:inline-block;
+margin-right:6%;
+border-radius: 20px;
+}
+
+#availablec,#enrolledc,#allenrolledc{
+display:none;
+}
+#alld::before{
+content:"COURS NUM";
+}
+@media screen and (max-width:750px){
+table tr{
+display: grid;
+grid-template-rows:repeat(auto,1fr);
+grid-gap:5px;
+}
+.sumation{
+display:grid;
+grid-template-columns:repeat(1,1fr);
+grid-gap:1%;
+width:90%;
+font-size:40px;
+}
+#return{
+font-size: 40px;
+}
+}

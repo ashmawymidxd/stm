@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif;
+
+} 
+body{
+    background: #f2f1f1;
+        color:blue;
+    }
+
+
+#examcontiner{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    height:auto;
+    border-radius: 30px;
+    box-shadow: -8px -8px 10px 0px  #ffffff, 8px 8px 15px 0px  #e5dbdb;
+    padding: 40px;
+    color: #4300fa;
+    margin-top: 20px;
+    
+}
+#examheader{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:5px;
+    background-color:rgba(0, 0, 255,0.8);
+    border-radius: 30px;
+    color: white;
+    font-size:22px;
+    font-family:sans-serif;
+
+}
+#examfooter{
+    margin-top: 5px;
+    background-color:blue;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:5px;
+    border-radius: 30px;
+    color: white;
+    font-size:22px;
+    font-family:sans-serif;
+}
+#examheader div,#examfooter div{
+    padding: 40px;
+}
+#exambody{
+    margin-top: 5px;
+    display: grid;
+    border-radius: 30px;
+    font-size:22px;
+    font-family:sans-serif;
+    padding-left: 40px;
+}
+#distotal::before{
+    content:'total degree : ';
+}
+#grade::before{
+    content:'grade : ';
+}
+#dis1,#dis2,#dis3,#dis4,#dis5{
+    display: none;
+}
+
+#button{
+    
+
+    height: 40px;
+    border-radius: 20px;
+    background-color: #140d6d;
+    color:white;
+    margin:1% 1%;
+    display: inline-block;
+    font-size:17px;
+    padding:0px 30%;
+    outline: none;
+    border:5px inset white;
+    transition-duration: 200ms;
+    
+}#button:hover{
+
+    height: 40px;
+    border-radius: 20px;
+    background-color: #090b34;
+    color:white;
+    margin:1% 1%;
+    display: inline-block;
+    font-size:17px;
+    padding:0px 30%;
+
+}
+
+#examheader p{
+    line-height: 50px;
+}
+
+input[type="text"]{
+    display: none;
+}
+

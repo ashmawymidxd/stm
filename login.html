@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Resume Page Template</title>
+
+    <!-- Bootstrap -->
+    <link href="csslog/bootstrap-4.3.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/login_style.css">
+
+  </head>
+  <body>
+    <script src="jquery.js"></script>
+
+</style>
+    <div class="container">
+      <div class="headers">
+        <div class="logo">
+        <div class="col-xl-6"><img src="imglog/logo.png" width="200" height="60" alt=""/></div>
+        </div>
+        <div class="meda">
+            
+            <a href="#register.php">sign up</a>
+        </div>
+      </div>
+
+			<!--========================= form ======================-->
+      <div id="login">
+        <form method="post" action="registration.php">
+            <h1 class="cent"> login form</h1>
+            <div class="form-group">
+              <br>
+              <input  type="text" class="form-control" id="email" name="scode" placeholder="Enter Email" aria-describedby="emailHelp"/>         
+              <br>
+              <input type="password" class="form-control" id="password" name="spassword" placeholder="Enter password" aria-describedby="emailHelp" />
+              <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
+            </div>
+            <div class="text-center">
+                <button class="submit" name="login">login</button>
+            </div>
+        </form>	
+      </div>
+
+        <script>
+            function prev(e){
+                if(e.keyCode >=57){
+                    e.preventDefault();
+                }
+            }
+        </script>
+
+        <footer class="text-center" id="fot">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+              <p>Copyright © MyWebsite. All rights reserved.</p>
+              <p>design by ahmed hassan.</p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+        
+		</div>	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="<?php echo BURL?>assets/jslog/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+</body>
+</html>
